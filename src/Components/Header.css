@@ -1,0 +1,25 @@
+#top{
+    background: #0C0B2E;
+}
+#header{
+    padding: 20px 15px;
+    color: white;
+    font-size: 40px;
+}
+#top-nav{
+    float: right;
+    display: inline-block;
+    font-size:15px;
+}
+#top-nav a{
+    display: inline-block;
+    font-family:sans-serif;
+    color: #fff;
+    text-decoration: none;
+    padding: 20px 15px;
+}
+#top-nav a:hover{
+    color: #85A5CC;
+    text-decoration: none;
+    padding: 20px 15px;
+}

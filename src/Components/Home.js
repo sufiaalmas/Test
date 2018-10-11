@@ -4,7 +4,8 @@ import {Grid,Cell} from 'react-mdl';
 export default class Home extends Component{
     render(){
         return(
-            <div style={{width:'100%',margin:'auto'}}>
+            <div style={{width:'100%',margin:'auto'}} id="test1">
+
                 <Grid className="landing-grid">
                     <Cell col={12}>
                         
@@ -18,6 +19,7 @@ export default class Home extends Component{
                     </Cell>
                 </Grid>
             </div>
+            
         )
     }
 }
